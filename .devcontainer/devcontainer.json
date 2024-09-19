@@ -1,0 +1,8 @@
+{
+    "name": "Rust OpenFHE Development (x86)",
+    "dockerFile": "Dockerfile",
+    "remoteUser": "root",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+    "workspaceFolder": "/workspace",
+    "runArgs": ["--platform=linux/amd64"]
+}
